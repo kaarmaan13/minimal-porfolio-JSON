@@ -1,0 +1,269 @@
+{
+  "$schema": "https://raw.githubusercontent.com/jsonresume/resume-schema/v1.0.0/schema.json",
+  "basics": {
+    "name": "☼Manuel Del Castillo Garzón",
+    "label": "Diseñador UX / Desarrollador web en programadorautonomo.com",
+    "image": "https://media.licdn.com/dms/image/C4D03AQGG6quMXVUoag/profile-displayphoto-shrink_800_800/0/1567682096173?e=1712188800&v=beta&t=Zqy09J84OoSIRT3xWxM8rl6E_1MOmVwqenesqHuKmxs",
+    "email": "manueldelcastillo13@gmail.com",
+    "phone": "697523227",
+    "url": "https://manueldelcastillo.dev",
+    "summary": "Apasionado de las Artes Gráficas y el diseño, planeando especializarme en User Experience y lo que existe entre diseño y usuario.",
+    "location": {
+      "city": "Madrid",
+      "countryCode": "ES",
+      "address": "España"
+    },
+    "profiles": [
+      {
+        "network": "LinkedIn",
+        "username": "manuel-del-castillo-garzon",
+        "url": "https://www.linkedin.com/in/manuel-del-castillo-garzon/"
+      }
+    ]
+  },
+  "work": [
+    {
+      "name": "programadorautonomo.com",
+      "position": "Diseñador UX / Desarrollador web",
+      "startDate": "2020-09-30",
+      "endDate": "2022-09-12",
+      "highlights": [],
+      "summary": "Diseño, prototipado y desarrollo de páginas webs.",
+      "url": "https://programadorautonomo.com",
+      "location": "Madrid, Comunidad de Madrid, España"
+    },
+    {
+      "name": "Hito Studio",
+      "position": "Diseñador de experiencias de usuario",
+      "startDate": "2019-06-30",
+      "endDate": "2020-06-30",
+      "highlights": [],
+      "summary": "Creación de diseños y plantillas para páginas web con Photoshop y Adobe XD, además preparación de archivos y recursos gráficos para campañas de publicidad online, banners, creación de artes finales para impresión y confección de estilos gráficos comunes para creación de Webs/Apps.",
+      "url": "https://www.linkedin.com/company/hito-studio/",
+      "location": "Las Rozas de Madrid y alrededores, España"
+    },
+    {
+      "name": "Hito Studio",
+      "position": "Graphic Web Design Trainee",
+      "startDate": "2019-03-31",
+      "endDate": "2019-06-30",
+      "highlights": [],
+      "summary": "Creación de diseños y plantillas para páginas web. Recursos gráficos para diferentes empresas y preparación de artes finales.  Diseño y edición en Photoshop y experiencia de usuario con Adobe XD.",
+      "url": "https://www.linkedin.com/company/hito-studio/",
+      "location": "Las Rozas de Madrid y alrededores, España"
+    },
+    {
+      "name": "Habla con Eñe Publishers, S.L.",
+      "position": "Diseñador gráfico en prácticas",
+      "startDate": "2017-07-31",
+      "endDate": "2017-09-30",
+      "highlights": [],
+      "summary": "Realización de cursos prácticos de aprendizaje de castellano dirigido a extranjeros.",
+      "url": "https://www.linkedin.com/company/hablaconene/",
+      "location": "Madrid y alrededores, España"
+    },
+    {
+      "name": "Crazy Rouge",
+      "position": "Diseñador gráfico auxiliar",
+      "startDate": "2016-09-30",
+      "endDate": "2016-12-31",
+      "highlights": [],
+      "summary": "Edición, creación y retoque fotográfico profesional para la fotógrafa @CrazyRouge.",
+      "url": "https://www.facebook.com/crazyrouge/",
+      "location": "Madrid y alrededores, España"
+    },
+    {
+      "name": "Sosa Dias, S.A.",
+      "position": "Diseñador gráfico en prácticas",
+      "startDate": "2014-03-31",
+      "endDate": "2014-06-30",
+      "highlights": [],
+      "summary": "Creación de plantillas y diseños de banderas y lonas en el sector de impresión digital.",
+      "url": "https://www.linkedin.com/company/sosa-dias-s-a-/",
+      "location": "Madrid y alrededores, España"
+    }
+  ],
+  "volunteer": [],
+  "education": [
+    {
+      "institution": "Salesianos Atocha",
+      "area": "Diseño gráfico",
+      "studyType": "Grado Superior en diseño gráfico",
+      "startDate": "2017-12-31",
+      "endDate": "2019-12-31",
+      "score": "",
+      "courses": []
+    },
+    {
+      "institution": "FEI Formaeduca, Formación y educación integral",
+      "area": "Artes gráficas",
+      "studyType": "Desarrollo de productos editoriales multimedia",
+      "startDate": "2017-12-31",
+      "endDate": "2017-12-31",
+      "score": "570 horas",
+      "courses": []
+    },
+    {
+      "institution": "ESDIP Escuela Superior de Dibujo Profesional",
+      "area": "Ilustración",
+      "studyType": "Ilustración Digital.",
+      "startDate": "2015-12-31",
+      "endDate": "2016-12-31",
+      "score": "",
+      "courses": []
+    }
+  ],
+  "awards": [],
+  "certificates": [
+    {
+      "name": "Ilustración Digital",
+      "issuer": "ESDIP Escuela de Arte"
+    },
+    {
+      "name": "Diseñador de Productos Editoriales y Multimedia",
+      "issuer": "Salesianos Atocha",
+      "startDate": "2019-06-30"
+    }
+  ],
+  "publications": [
+    {
+      "name": "100 EJEMPLOS DE RESILIENCIA, UN EBOOK PARA LUCHAR CONTRA EL HAMBRE",
+      "publisher": "Acción Contra el Hambre www.accioncontraelhambre.org",
+      "releaseDate": "2015-12-10",
+      "summary": "Es un ebook que recopila una serie de ilustraciones de diferentes artistas sobre ejemplos de superación de etapas o situaciones duras de la vida.",
+      "url": "https://www.accioncontraelhambre.org/sites/default/files/documents/100resiliencias.pdf"
+    }
+  ],
+  "skills": [
+    {
+      "name": "Desarrollo front end",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "JavaScript",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Soluciones creativas",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Dibujo",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Ilustración",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "InDesign",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Diseño",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Medios digitales",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "SketchUp",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Corel",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Photoshop",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Artes visuales",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Diseño de logotipos",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Ilustraciones editoriales",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Videojuegos",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Arte",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Adobe ilustrador",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Arte conceptual",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Illustrator",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Diseño gráfico",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Ilustración digital",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Adobe Photoshop",
+      "level": "",
+      "keywords": []
+    }
+  ],
+  "languages": [
+    {
+      "language": "es",
+      "fluency": "Native Speaker"
+    }
+  ],
+  "interests": [],
+  "references": [],
+  "projects": [
+    {
+      "name": "Porfolio Personal Temporal",
+      "startDate": "2019-06-30",
+      "summary": null,
+      "url": "https://www.facebook.com/ArteEscasoIlustracion/photos/?tab=album&album_id=814086988721562"
+    }
+  ],
+  "meta": {
+    "version": "v1.0.0",
+    "canonical": "https://github.com/jsonresume/resume-schema/blob/v1.0.0/schema.json"
+  }
+}
