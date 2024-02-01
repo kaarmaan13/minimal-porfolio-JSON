@@ -1,86 +1,62 @@
 {
   "$schema": "https://raw.githubusercontent.com/jsonresume/resume-schema/v1.0.0/schema.json",
   "basics": {
-    "name": "☼Manuel Del Castillo Garzón",
-    "label": "Diseñador UX / Desarrollador web en programadorautonomo.com",
+    "name": "Manuel Del Castillo Garzón",
+    "label": "Front End Developer",
     "image": "/manuel-del-castillo.webp",
     "email": "manueldelcastillo13@gmail.com",
     "phone": "697523227",
     "url": "https://manueldelcastillo.dev",
-    "summary": "Apasionado de las Artes Gráficas y el diseño, planeando especializarme en User Experience y lo que existe entre diseño y usuario.",
+    "summary": "Comenzé como diseñar gráfico queriendo especializarme en Experiencia de Usuario. He formado parte de empresas de Marketing digital ofreciendo experiencias visuales atractivas y solucionando problemas entre el diseño y la programación. Actualmente trabajo en un equipo de operaciones como Front End Developer. Siempre mejorando entre UX y desarrollo web.",
     "location": {
       "city": "Madrid",
       "countryCode": "ES",
-      "address": "España"
+      "address": "España",
+      "mapsUrl": "https://maps.app.goo.gl/uKbeYFEE8qY7h7kT6"
     },
     "profiles": [
       {
         "network": "LinkedIn",
         "username": "manuel-del-castillo-garzon",
         "url": "https://www.linkedin.com/in/manuel-del-castillo-garzon/"
+      },
+      {
+        "network": "Github",
+        "username": "kaarmaan13",
+        "url": "https://github.com/kaarmaan13"
       }
     ]
   },
   "work": [
+    {
+      "name": "Globant",
+      "position": "Front End Developer",
+      "startDate": "2022-09-12",
+      "endDate": null,
+      "highlights": [],
+      "summary": "Desarrollo de interfaces y experiencias digitales innovadoras con Javascript. Creación de servicios y pasarelas con PHP. Creación de scripts de terceros para captación de leads en páginas webs de clientes como Mapfre, Vodafone, Finetwork, Adeslas o Generali entre otras.",
+      "url": "https://www.linkedin.com/company/globant/",
+      "location": "Madrid, Comunidad de Madrid, España"
+    },
     {
       "name": "programadorautonomo.com",
       "position": "Diseñador UX / Desarrollador web",
       "startDate": "2020-09-30",
       "endDate": "2022-09-12",
       "highlights": [],
-      "summary": "Diseño, prototipado y desarrollo de páginas webs.",
+      "summary": "Diseño, prototipado y desarrollo de páginas webs. Utilización de tecnologías web como JQuery, PHP, Wordpress. Prototipado y diseño con Adobe XD, Adobe Illustrator y Adobe Photoshop",
       "url": "https://programadorautonomo.com",
       "location": "Madrid, Comunidad de Madrid, España"
     },
     {
       "name": "Hito Studio",
-      "position": "Diseñador de experiencias de usuario",
+      "position": "Diseñador Gráfico Junior - Diseñador UX (Experiencia de Usuario)",
       "startDate": "2019-06-30",
       "endDate": "2020-06-30",
       "highlights": [],
       "summary": "Creación de diseños y plantillas para páginas web con Photoshop y Adobe XD, además preparación de archivos y recursos gráficos para campañas de publicidad online, banners, creación de artes finales para impresión y confección de estilos gráficos comunes para creación de Webs/Apps.",
       "url": "https://www.linkedin.com/company/hito-studio/",
       "location": "Las Rozas de Madrid y alrededores, España"
-    },
-    {
-      "name": "Hito Studio",
-      "position": "Graphic Web Design Trainee",
-      "startDate": "2019-03-31",
-      "endDate": "2019-06-30",
-      "highlights": [],
-      "summary": "Creación de diseños y plantillas para páginas web. Recursos gráficos para diferentes empresas y preparación de artes finales.  Diseño y edición en Photoshop y experiencia de usuario con Adobe XD.",
-      "url": "https://www.linkedin.com/company/hito-studio/",
-      "location": "Las Rozas de Madrid y alrededores, España"
-    },
-    {
-      "name": "Habla con Eñe Publishers, S.L.",
-      "position": "Diseñador gráfico en prácticas",
-      "startDate": "2017-07-31",
-      "endDate": "2017-09-30",
-      "highlights": [],
-      "summary": "Realización de cursos prácticos de aprendizaje de castellano dirigido a extranjeros.",
-      "url": "https://www.linkedin.com/company/hablaconene/",
-      "location": "Madrid y alrededores, España"
-    },
-    {
-      "name": "Crazy Rouge",
-      "position": "Diseñador gráfico auxiliar",
-      "startDate": "2016-09-30",
-      "endDate": "2016-12-31",
-      "highlights": [],
-      "summary": "Edición, creación y retoque fotográfico profesional para la fotógrafa @CrazyRouge.",
-      "url": "https://www.facebook.com/crazyrouge/",
-      "location": "Madrid y alrededores, España"
-    },
-    {
-      "name": "Sosa Dias, S.A.",
-      "position": "Diseñador gráfico en prácticas",
-      "startDate": "2014-03-31",
-      "endDate": "2014-06-30",
-      "highlights": [],
-      "summary": "Creación de plantillas y diseños de banderas y lonas en el sector de impresión digital.",
-      "url": "https://www.linkedin.com/company/sosa-dias-s-a-/",
-      "location": "Madrid y alrededores, España"
     }
   ],
   "volunteer": [],
@@ -256,14 +232,41 @@
   "references": [],
   "projects": [
     {
-      "name": "Porfolio Personal Temporal",
-      "startDate": "2019-06-30",
-      "summary": null,
-      "url": "https://www.facebook.com/ArteEscasoIlustracion/photos/?tab=album&album_id=814086988721562"
+      "name": "Piscina y Spa ®",
+      "summary": "Mejoras del ecommerce de Piscina y Spa ® aumentando las ventas",
+      "description": "Optimización visual y técnica de este ecommerce de productos relacionados con piscinas, jardines y spas, mejorando el embudo de conversión de ventas. Implementación de mejoras en la experiencia de compra, desde la navegación intuitiva hasta la simplificación del proceso de compra, lo que resultó en un aumento significativo de las conversiones y la satisfacción del cliente.",
+      "url": "https://www.piscinayspa.com/"
+    },
+    {
+      "name": "Banus Boats",
+      "summary": "Reserva sencilla de barcos de lujo y sus extras de manera intuitiva",
+      "description": "Diseño y desarrollo del sitio web Banus Boats. Especializado en la venta y alquiler de embarcaciones de lujo, el enfoque se centró en potenciar la funcionalidad de reserva de barcos y sus extras. Implementación de un apartado específico para facilitar la reserva de embarcaciones, con una interfaz intuitiva que permite a los usuarios seleccionar y personalizar sus opciones con facilidad. Estas mejoras estratégicas aseguran una experiencia de reserva fluida y satisfactoria para los clientes, promoviendo así un aumento en las conversiones y una mayor satisfacción del usuario.",
+      "url": "https://www.banusboats.com/"
+    },
+    {
+      "name": "Hito Studio",
+      "summary": "Web corporativa renovada para una experiencia de usuario inmersiva",
+      "description": "Revitalización completa de la web corporativa de Hito Studio, una agencia creativa líder. El enfoque estuvo en la presentación de sus servicios y proyectos destacados. Implementación de una interfaz más atractiva y funcional, facilitando a los usuarios la navegación y la comprensión de la oferta de la empresa. Optimización de la sección contacto para fomentar una comunicación efectiva con los clientes potenciales. Estas mejoras estratégicas fortalecen la presencia online de Hito Studio, promoviendo una experiencia de usuario más atractiva y un aumento en la generación de clientes potenciales.",
+      "url": "https://hitostudio.com/"
+    },
+    {
+      "name": "Home & Help",
+      "summary": "Búsqueda de profesionales en servicios y cuidados domésticos",
+      "description": "Reestructuración enfocada en potenciar la funcionalidad de búsqueda de profesionales en el sitio web de Home and Help. Se implementaron mejoras significativas en el motor de búsqueda, permitiendo a los usuarios encontrar rápidamente profesionales calificados para una amplia gama de servicios domésticos. Se optimizó la interfaz para una navegación intuitiva y una experiencia de usuario más eficiente. Estas mejoras estratégicas aseguran que los usuarios puedan acceder fácilmente a una red confiable de profesionales, lo que promueve un aumento en la satisfacción del cliente y la eficacia en la contratación de servicios.",
+      "url": "https://homeandhelp.es/"
+    },
+    {
+      "name": "Landing Mapfre",
+      "summary": "Captación de leads con diseño persuasivo y actualizaciones contínuas",
+      "description": "Desarrollo y mantenimiento de landing pages para Mapfre, con un enfoque específico en la captación de leads. Diseño y optimización páginas de destino para resaltar los diferentes productos y servicios de seguros, utilizando elementos visuales llamativos y contenido persuasivo para fomentar la conversión de visitantes en leads cualificados. Además, se realizaron actualizaciones regulares y ajustes para garantizar un rendimiento óptimo y una experiencia de usuario satisfactoria. Este proyecto demuestra la capacidad para crear landing pages efectivas que impulsan la captación de leads y el compromiso del público objetivo.",
+      "url": "https://segurosdecoche.mapfre.es/"
+    },
+    {
+      "name": "Entradas Madrid",
+      "summary": "Compra segura de entradas deportivas con experiencia fluida",
+      "description": "Creación web de Entradas Madrid, especializado en la reventa de entradas para partidos de fútbol en la ciudad. Se diseñaron páginas específicas para ofrecer una experiencia de usuario fluida y segura durante el proceso de compra de entradas. Se implementaron características como un sistema de búsqueda intuitivo, opciones de filtrado por equipos y fechas, y un proceso de compra simplificado para facilitar la adquisición de entradas. Además, se realizaron mejoras continuas para garantizar la actualización constante de la disponibilidad de entradas y la seguridad de la plataforma. Este proyecto demuestra la capacidad para desarrollar sitios web especializados que satisfacen las necesidades específicas de los aficionados al fútbol y promueven la participación en eventos deportivos en Madrid.",
+      "url": "https://www.entradasmadrid.com/"
     }
-  ],
-  "meta": {
-    "version": "v1.0.0",
-    "canonical": "https://github.com/jsonresume/resume-schema/blob/v1.0.0/schema.json"
-  }
+    
+  ]
 }
