@@ -1,16 +1,16 @@
 ---
-import Layout from '@/layouts/Layout.astro'
+import Layout from "@/layouts/Layout.astro";
 
-import About from '@/components/sections/About.astro'
-import Education from '@/components/sections/Education.astro'
-import Experience from '@/components/sections/Experience.astro'
-import Hero from '@/components/sections/Hero.astro'
-import Projects from '@/components/sections/Projects.astro'
-import Skills from '@/components/sections/Skills.astro'
-import KeyboardManager from '@/components/sections/KeyboardManager.astro'
+import About from "@/components/sections/About.astro";
+import Education from "@/components/sections/Education.astro";
+import Experience from "@/components/sections/Experience.astro";
+import Hero from "@/components/sections/Hero.astro";
+import Projects from "@/components/sections/Projects.astro";
+import Skills from "@/components/sections/Skills.astro";
+import KeyboardManager from "@/components/KeyboardManager.astro";
 ---
 
-<Layout title="Minimalist Porfolio">
+<Layout title="Manuel Del Castillo Garzón - Front End Developer">
 	<main>
 		<Hero />
 		<About />
@@ -18,14 +18,24 @@ import KeyboardManager from '@/components/sections/KeyboardManager.astro'
 		<Education />
 		<Projects />
 		<Skills />
-		<KeyboardManager />
 	</main>
+	<KeyboardManager />
 </Layout>
 
 <style>
-  main {
-    padding: 4rem;
-    margin: auto;
-    width: 100%;
+	main {
+		padding: 4rem;
+		margin: auto;
+		width: 100%;
+	}
+	@media (max-width: 576px) {
+		main {
+			padding: 2rem;
+		}
+	}
+	@media print {
+    main {
+			padding: 2rem;
+		}
   }
 </style>

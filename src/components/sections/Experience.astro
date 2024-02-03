@@ -1,24 +1,36 @@
 ---
-import Section from "@/components/Section.astro"
-import { work } from "@cv"
+import Section from "@/components/Section.astro";
+import { work } from "@cv";
 
-const meses = ["Ene", "Feb", "Mar", "Abr", "May", "Jun", "Jul", "Ago", "Sep", "Oct", "Nov", "Dic"]
+const meses = [
+  "Ene",
+  "Feb",
+  "Mar",
+  "Abr",
+  "May",
+  "Jun",
+  "Jul",
+  "Ago",
+  "Sep",
+  "Oct",
+  "Nov",
+  "Dic",
+];
 
 const formatearFecha = (fechaString: string) => {
-  const [anio, mes, _] = fechaString.split('-')
-  const mesAbreviado = meses[parseInt(mes) - 1]
-  return `${mesAbreviado}. ${anio}`
-}
+  const [anio, mes, _] = fechaString.split("-");
+  const mesAbreviado = meses[parseInt(mes) - 1];
+  return `${mesAbreviado}. ${anio}`;
+};
 ---
 
 <Section title="Experiencia laboral">
   <ul>
     {
       work.map(({ name, startDate, endDate, position, summary, url }) => {
-        const startYear = formatearFecha(startDate)
-        const endYear =
-          endDate != null ? formatearFecha(endDate) : "Actual"
-        const years = `${startYear} - ${endYear}`
+        const startYear = formatearFecha(startDate);
+        const endYear = endDate != null ? formatearFecha(endDate) : "Actual";
+        const years = `${startYear} - ${endYear}`;
 
         return (
           <li>
@@ -37,7 +49,7 @@ const formatearFecha = (fechaString: string) => {
               </footer>
             </article>
           </li>
-        )
+        );
       })
     }
   </ul>
@@ -74,5 +86,10 @@ const formatearFecha = (fechaString: string) => {
   time {
     font-size: 0.85rem;
     padding-top: 3px;
+  }
+  @media (max-width: 576px) {
+    article header {
+      flex-direction: column;
+    }
   }
 </style>

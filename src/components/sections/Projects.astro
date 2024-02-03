@@ -37,6 +37,7 @@ import { projects } from "@cv";
     padding: 16px;
     border: 1px solid #cecece;
     border-radius: 8px;
+    min-height: 155px;
   }
   article header {
     display: flex;
@@ -47,5 +48,20 @@ import { projects } from "@cv";
   h3 {
     color: #444;
     font-weight: 500;
+  }
+  @media (max-width: 768px) {
+    article {
+      min-height: 132px;
+    }
+  }
+  @media (max-width: 576px) {
+    article {
+      min-height: auto;
+    }
+  }
+  @media print {
+    article {
+			height: 155px;
+		}
   }
 </style>

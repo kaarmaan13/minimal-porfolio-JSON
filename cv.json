@@ -50,8 +50,8 @@
     },
     {
       "name": "Hito Studio",
-      "position": "Diseñador Gráfico Junior - Diseñador UX (Experiencia de Usuario)",
-      "startDate": "2019-06-30",
+      "position": "Diseñador Gráfico y UX (Experiencia de Usuario)",
+      "startDate": "2019-03-30",
       "endDate": "2020-06-30",
       "highlights": [],
       "summary": "Creación de diseños y plantillas para páginas web con Photoshop y Adobe XD, además preparación de archivos y recursos gráficos para campañas de publicidad online, banners, creación de artes finales para impresión y confección de estilos gráficos comunes para creación de Webs/Apps.",
@@ -71,18 +71,9 @@
       "courses": []
     },
     {
-      "institution": "FEI Formaeduca, Formación y educación integral",
-      "area": "Artes gráficas",
-      "studyType": "Desarrollo de productos editoriales multimedia",
-      "startDate": "2017-12-31",
-      "endDate": "2017-12-31",
-      "score": "570 horas",
-      "courses": []
-    },
-    {
       "institution": "ESDIP Escuela Superior de Dibujo Profesional",
       "area": "Ilustración",
-      "studyType": "Ilustración Digital.",
+      "studyType": "Ilustración Digital",
       "startDate": "2015-12-31",
       "endDate": "2016-12-31",
       "score": "",
@@ -122,87 +113,37 @@
       "keywords": []
     },
     {
-      "name": "Soluciones creativas",
+      "name": "React",
       "level": "",
       "keywords": []
     },
     {
-      "name": "Dibujo",
+      "name": "Node JS",
       "level": "",
       "keywords": []
     },
     {
-      "name": "Ilustración",
+      "name": "Astro",
       "level": "",
       "keywords": []
     },
     {
-      "name": "InDesign",
+      "name": "Tailwind",
       "level": "",
       "keywords": []
     },
     {
-      "name": "Diseño",
+      "name": "Webpack",
       "level": "",
       "keywords": []
     },
     {
-      "name": "Medios digitales",
+      "name": "Vite",
       "level": "",
       "keywords": []
     },
     {
-      "name": "SketchUp",
-      "level": "",
-      "keywords": []
-    },
-    {
-      "name": "Corel",
-      "level": "",
-      "keywords": []
-    },
-    {
-      "name": "Photoshop",
-      "level": "",
-      "keywords": []
-    },
-    {
-      "name": "Artes visuales",
-      "level": "",
-      "keywords": []
-    },
-    {
-      "name": "Diseño de logotipos",
-      "level": "",
-      "keywords": []
-    },
-    {
-      "name": "Ilustraciones editoriales",
-      "level": "",
-      "keywords": []
-    },
-    {
-      "name": "Videojuegos",
-      "level": "",
-      "keywords": []
-    },
-    {
-      "name": "Arte",
-      "level": "",
-      "keywords": []
-    },
-    {
-      "name": "Adobe ilustrador",
-      "level": "",
-      "keywords": []
-    },
-    {
-      "name": "Arte conceptual",
-      "level": "",
-      "keywords": []
-    },
-    {
-      "name": "Illustrator",
+      "name": "Figma",
       "level": "",
       "keywords": []
     },
@@ -212,12 +153,17 @@
       "keywords": []
     },
     {
-      "name": "Ilustración digital",
+      "name": "Adobe Photoshop",
       "level": "",
       "keywords": []
     },
     {
-      "name": "Adobe Photoshop",
+      "name": "Adobe Illustrator",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Adobe XD",
       "level": "",
       "keywords": []
     }
