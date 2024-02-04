@@ -28,12 +28,18 @@ import KeyboardManager from "@/components/KeyboardManager.astro";
 		margin: auto;
 		width: 100%;
 	}
+	.no-print {
+		display: none;
+	}
 	@media (max-width: 576px) {
 		main {
 			padding: 2rem;
 		}
 	}
 	@media print {
+		.no-print {
+			display: unset;
+		}
     main {
 			padding: 2rem;
 		}
