@@ -36,15 +36,12 @@ const SOCIAL_ICONS: Record<string, any> = {
         </a>
       </span>
       <footer class="print">
-        
-              <article><span>{email}</span><span>{phone}</span></article>
-           
+        <article><span>{email}</span><span>{phone}</span></article>
+
         {
           profiles.map(({ url }) => (
-            <span>{url.replace('www.', '').replace('https://', '')}</span>
-          )
-            
-          )
+            <span>{url.replace("www.", "").replace("https://", "")}</span>
+          ))
         }
       </footer>
       <footer class="no-print">
@@ -158,6 +155,9 @@ const SOCIAL_ICONS: Record<string, any> = {
     }
   }
   @media print {
+    .info {
+      gap: 0.5rem;
+    }
     footer.print {
       display: flex;
       flex-direction: column;
