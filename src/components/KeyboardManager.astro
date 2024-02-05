@@ -130,7 +130,7 @@ const profilesInfo = profiles.map(({ network, url }) => {
     view-timeline-name: --revealing;
     view-timeline-axis: block;
 
-    animation: linear 0.3s fadeIn;
+    animation: linear 3s fadeIn;
     animation-timeline: --revealing;
     animation-range: entry 100% cover 10%;
 
@@ -148,6 +148,7 @@ const profilesInfo = profiles.map(({ network, url }) => {
   }
   @media (max-width: 992px) {
     footer {
+      animation-range: entry 100% cover 75%;
       display: none !important;
       &.mobile {
         display: block !important;
