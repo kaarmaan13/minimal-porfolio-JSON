@@ -85,6 +85,19 @@ const { title } = Astro.props;
     text-decoration: underline;
     text-decoration-thickness: 2px;
     text-decoration-color: #f7e025;
-    
+  }
+  .print {
+    display: none !important;
+  }
+  .no-print {
+    display: inherit !important;
+  }
+  @media print {
+    .no-print {
+      display: none !important;
+    }
+    .print {
+      display: inherit !important;
+    }
   }
 </style>

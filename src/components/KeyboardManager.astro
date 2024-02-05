@@ -1,4 +1,5 @@
 ---
+import File from "@/icons/File.astro";
 import { type SocialIcon } from "@/types";
 import { basics } from "@cv";
 
@@ -46,8 +47,11 @@ const profilesInfo = profiles.map(({ network, url }) => {
 });
 ---
 
-<footer>
+<footer class="no-print">
   Pulsa <kbd>Ctrl</kbd> + <kbd>K</kbd> para abrir la paleta de comandos.
+</footer>
+<footer class="mobile no-print">
+  <a onclick="window.print()"><File /> <span>Descargar CV</span></a>
 </footer>
 
 <ninja-keys
@@ -122,7 +126,7 @@ const profilesInfo = profiles.map(({ network, url }) => {
     text-align: center;
     width: 100%;
     border-top: 1px solid #cecece;
-    
+
     view-timeline-name: --revealing;
     view-timeline-axis: block;
 
@@ -138,16 +142,41 @@ const profilesInfo = profiles.map(({ network, url }) => {
       padding: 0.2rem 0.6rem;
       border-radius: 6px;
     }
+    &.mobile {
+      display: none !important;
+    }
   }
   @media (max-width: 992px) {
     footer {
-      display: none;
+      display: none !important;
+      &.mobile {
+        display: block !important;
+        margin-bottom: 10px;
+        border: none;
+        background-color: transparent;
+        a {
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          background-color: #f7e025;
+          padding: 0.5rem 2rem;
+          width: fit-content;
+          border-radius: 30px;
+          margin: 0 auto;
+          cursor: pointer;
+          font-weight: 600;
+          span {
+            padding-left: 0.5rem;
+          }
+        }
+      }
     }
   }
   @media print {
     ninja-keys,
-    footer {
-      display: none;
+    footer,
+    footer.no-print.mobile {
+      display: none !important;
     }
   }
 </style>

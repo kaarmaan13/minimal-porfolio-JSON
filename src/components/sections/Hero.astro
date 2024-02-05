@@ -35,7 +35,19 @@ const SOCIAL_ICONS: Record<string, any> = {
           {city}, {address}
         </a>
       </span>
-      <footer>
+      <footer class="print">
+        
+              <article><span>{email}</span><span>{phone}</span></article>
+           
+        {
+          profiles.map(({ url }) => (
+            <span>{url.replace('www.', '').replace('https://', '')}</span>
+          )
+            
+          )
+        }
+      </footer>
+      <footer class="no-print">
         {
           email && (
             <a
@@ -143,6 +155,17 @@ const SOCIAL_ICONS: Record<string, any> = {
   @media (max-width: 576px) {
     .container {
       flex-direction: column-reverse;
+    }
+  }
+  @media print {
+    footer.print {
+      display: flex;
+      flex-direction: column;
+      margin-top: 0;
+    }
+    footer.print article {
+      display: flex;
+      flex-direction: column;
     }
   }
 </style>

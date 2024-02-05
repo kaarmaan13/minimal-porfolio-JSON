@@ -20,6 +20,9 @@ import { projects } from "@cv";
               </a>
               <p>{summary}</p>
             </header>
+            <span class="print">
+              {url.replace("www.", "").replace("https://", "").replace("/", "")}
+            </span>
           </article>
         </li>
       ))
@@ -38,6 +41,13 @@ import { projects } from "@cv";
     border: 1px solid #cecece;
     border-radius: 8px;
     min-height: 155px;
+    position: relative;
+  }
+  span {
+    font-size: 10px;
+    color: #444;
+    position: absolute;
+    bottom: 10px;
   }
   article header {
     display: flex;
@@ -61,7 +71,7 @@ import { projects } from "@cv";
   }
   @media print {
     article {
-			height: 155px;
-		}
+      height: 207px;
+    }
   }
 </style>
