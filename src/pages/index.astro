@@ -1,41 +1,16 @@
 ---
-import Layout from "@/layouts/Layout.astro";
-
-import About from "@/components/sections/About.astro";
-import Education from "@/components/sections/Education.astro";
-import Experience from "@/components/sections/Experience.astro";
-import Hero from "@/components/sections/Hero.astro";
-import Projects from "@/components/sections/Projects.astro";
-import Skills from "@/components/sections/Skills.astro";
-import KeyboardManager from "@/components/KeyboardManager.astro";
+import LayoutPorfolio from "@/layouts/LayoutPorfolio.astro";
+import Menu from "@/components/porfolioSections/Menu.astro";
+import Introduction from "@/components/porfolioSections/Introduction.astro";
 ---
 
-<Layout title="Manuel Del Castillo Garzón - Front End Developer">
-	<main>
-		<Hero />
-		<About />
-		<Experience />
-		<Education />
-		<Projects />
-		<Skills />
-	</main>
-	<KeyboardManager />
-</Layout>
-
-<style>
-	main {
-		padding: 4rem;
-		margin: auto;
-		width: 100%;
-	}
-	@media (max-width: 576px) {
-		main {
-			padding: 2rem;
-		}
-	}
-	@media print {
-    main {
-			padding: 2rem;
-		}
-  }
-</style>
+<LayoutPorfolio title="Manuel Del Castillo Garzón - Front End Developer">
+  <main
+    class="absolute inset-0 -z-10 h-full w-full items-center px-5 py-24 [background:radial-gradient(125%_125%_at_50%_10%,#000_40%,#63e_100%)]"
+  >
+  <Menu />
+    <div class="max-w-[1200px] mx-auto">
+      <Introduction />
+    </div>
+  </main>
+</LayoutPorfolio>

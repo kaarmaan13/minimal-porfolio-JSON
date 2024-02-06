@@ -1,0 +1,15 @@
+---
+import { basics } from "@cv";
+import Badge from "../Badge.astro";
+
+const { name, label, summary, image, location, profiles, phone, email } = basics;
+---
+
+<div class="flex flex-col items-center gap-5">
+  <figure>
+    <img src={image} class="rounded-full size-20 mx-auto" />
+  </figure>
+  <Badge class="animate-bounce">Disponible para trabajar</Badge>
+  <h2 class="text-5xl font-bold text-center">Hola soy Manuel,</h2>
+  <p class="max-w-xl text-lg text-white opacity-80">{summary}</p>
+</div>
