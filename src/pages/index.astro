@@ -2,15 +2,21 @@
 import LayoutPorfolio from "@/layouts/LayoutPorfolio.astro";
 import Menu from "@/components/porfolioSections/Menu.astro";
 import Introduction from "@/components/porfolioSections/Introduction.astro";
+import Experience from "@/components/porfolioSections/Experience.astro";
+import Projects from "@/components/porfolioSections/Projects.astro";
+import SobreMi from "@/components/porfolioSections/SobreMi.astro";
+import Footer from "@/components/porfolioSections/Footer.astro";
 ---
 
 <LayoutPorfolio title="Manuel Del Castillo Garzón - Front End Developer">
-  <main
-    class="absolute inset-0 -z-10 h-full w-full items-center px-5 py-24 [background:radial-gradient(125%_125%_at_50%_10%,#000_40%,#63e_100%)]"
-  >
-  <Menu />
-    <div class="max-w-[1200px] mx-auto">
+  <main class="">
+    <Menu />
+    <div class="max-w-[1200px] mx-auto py-24">
       <Introduction />
+      <Experience />
+      <Projects />
+      <SobreMi />
+      <Footer />
     </div>
   </main>
 </LayoutPorfolio>

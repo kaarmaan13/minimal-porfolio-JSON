@@ -18,7 +18,7 @@ const meses = [
 ];
 
 const formatearFecha = (fechaString: string) => {
-  const [anio, mes, _] = fechaString.split("-");
+  const [_, mes, anio] = fechaString.split("-");
   const mesAbreviado = meses[parseInt(mes) - 1];
   return `${mesAbreviado}. ${anio}`;
 };

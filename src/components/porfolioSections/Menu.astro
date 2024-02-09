@@ -1,9 +1,41 @@
-<header class="fixed top-0 z-10 flex items-center justify-center w-full mx-auto mt-4">
-  <nav class="flex justify-center gap-3">
-    <a class="opacity-80 hover:no-underline hover:opacity-100" href="#experiencia">Experiencia</a>
-    <a class="opacity-80 hover:no-underline hover:opacity-100" href="#proyectos">Proyectos</a>
-    <a class="opacity-80 hover:no-underline hover:opacity-100" href="#sobre-mi">Sobre mí</a>
-    <!-- <a class="opacity-80 hover:no-underline hover:opacity-100" href="#contacto">Contacto</a> -->
-    <a class="opacity-80 hover:no-underline hover:opacity-100" href="/cv" target="_blank">CV</a>
+---
+console.log(Astro.params);
+const active = globalThis.location?.href.includes('#') ? 'active' : ''
+---
+
+<header
+  class="fixed top-0 z-10 flex items-center justify-center w-full mx-auto mt-8"
+>
+  <nav class="flex px-3 rounded-full justify-center gap-3">
+    <a
+      class={`opacity-80 hover:no-underline hover:opacity-100 ${active}`}
+      href="#experiencia">Experiencia</a
+    >
+    <a class={`opacity-80 hover:no-underline hover:opacity-100 ${active}`} href="#proyectos"
+      >Proyectos</a
+    >
+    <a class={`opacity-80 hover:no-underline hover:opacity-100 ${active}`} href="#sobre-mi"
+      >Sobre mí</a
+    >
+    <!-- <a class={`opacity-80 hover:no-underline hover:opacity-100 ${active}`} href="#contacto">Contacto</a> -->
+    <a
+      class={`opacity-80 hover:no-underline hover:opacity-100 ${active}`}
+      href="/cv"
+      target="_blank">CV</a
+    >
   </nav>
 </header>
+
+<style>
+  nav {
+    animation: nav-shadown 1s linear both;
+    animation-timeline: scroll();
+    animation-range: 0 100px;
+  }
+
+  @keyframes nav-shadown {
+    to {
+      @apply shadow-lg ring-1 backdrop-blur bg-purple-900/80 dark:bg-gray-800 ring-white/10;
+    }
+  }
+</style>

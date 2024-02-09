@@ -1,5 +1,4 @@
 {
-  "$schema": "https://raw.githubusercontent.com/jsonresume/resume-schema/v1.0.0/schema.json",
   "basics": {
     "name": "Manuel Del Castillo Garzón",
     "label": "Front End Developer",
@@ -31,7 +30,7 @@
     {
       "name": "Globant",
       "position": "Front End Developer",
-      "startDate": "2022-09-12",
+      "startDate": "12-09-2022",
       "endDate": null,
       "highlights": [],
       "summary": "Desarrollo de interfaces y experiencias digitales innovadoras con Javascript. Creación de servicios y pasarelas con PHP. Creación de scripts de terceros para captación de leads en páginas webs de clientes como Mapfre, Vodafone, Finetwork, Adeslas o Generali entre otras.",
@@ -41,8 +40,8 @@
     {
       "name": "programadorautonomo.com",
       "position": "Diseñador UX / Desarrollador web",
-      "startDate": "2020-09-30",
-      "endDate": "2022-09-12",
+      "startDate": "30-09-2020",
+      "endDate": "12-09-2022",
       "highlights": [],
       "summary": "Diseño, prototipado y desarrollo de páginas webs. Utilización de tecnologías web como JQuery, PHP, Wordpress. Prototipado y diseño con Adobe XD, Adobe Illustrator y Adobe Photoshop",
       "url": "https://programadorautonomo.com",
@@ -51,8 +50,8 @@
     {
       "name": "Hito Studio",
       "position": "Diseñador Gráfico y UX (Experiencia de Usuario)",
-      "startDate": "2019-03-30",
-      "endDate": "2020-06-30",
+      "startDate": "30-03-2019",
+      "endDate": "30-06-2020",
       "highlights": [],
       "summary": "Creación de diseños y plantillas para páginas web con Photoshop y Adobe XD, además preparación de archivos y recursos gráficos para campañas de publicidad online, banners, creación de artes finales para impresión y confección de estilos gráficos comunes para creación de Webs/Apps.",
       "url": "https://www.linkedin.com/company/hito-studio/",
@@ -65,8 +64,8 @@
       "institution": "Salesianos Atocha",
       "area": "Diseño gráfico",
       "studyType": "Grado Superior en diseño gráfico",
-      "startDate": "2017-12-31",
-      "endDate": "2019-12-31",
+      "startDate": "31-12-2017",
+      "endDate": "31-12-2019",
       "score": "",
       "courses": []
     },
@@ -74,8 +73,8 @@
       "institution": "ESDIP Escuela Superior de Dibujo Profesional",
       "area": "Ilustración",
       "studyType": "Ilustración Digital",
-      "startDate": "2015-12-31",
-      "endDate": "2016-12-31",
+      "startDate": "31-12-2015",
+      "endDate": "31-12-2016",
       "score": "",
       "courses": []
     }
@@ -89,14 +88,14 @@
     {
       "name": "Diseñador de Productos Editoriales y Multimedia",
       "issuer": "Salesianos Atocha",
-      "startDate": "2019-06-30"
+      "startDate": "30-06-2019"
     }
   ],
   "publications": [
     {
       "name": "100 EJEMPLOS DE RESILIENCIA, UN EBOOK PARA LUCHAR CONTRA EL HAMBRE",
       "publisher": "Acción Contra el Hambre www.accioncontraelhambre.org",
-      "releaseDate": "2015-12-10",
+      "releaseDate": "10-12-2015",
       "summary": "Es un ebook que recopila una serie de ilustraciones de diferentes artistas sobre ejemplos de superación de etapas o situaciones duras de la vida.",
       "url": "https://www.accioncontraelhambre.org/sites/default/files/documents/100resiliencias.pdf"
     }

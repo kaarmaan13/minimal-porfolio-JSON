@@ -7,8 +7,8 @@ import { education } from "@cv";
   <ul>
     {
       education.map(({ institution, studyType, startDate, endDate }) => {
-        const startYear = new Date(startDate).getFullYear();
-        const endYear = new Date(endDate).getFullYear();
+        const [,,startYear] = startDate.split('-');
+        const [,,endYear] = endDate.split('-');
         const years = `${startYear} - ${endYear}`;
         return (
           <li>
