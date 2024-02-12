@@ -1,9 +1,31 @@
 ---
-import Code from "@/icons/Code.astro";
+import User from "@/icons/User.astro";
+import { basics } from "@cv";
 ---
 
-<section class="max-w-3xl mx-auto pt-24">
+<section class="max-w-3xl mx-auto py-24" id="sobre-mi">
   <h2 class="pb-12 flex items-center text-3xl font-semibold gap-x-3">
-    <Code />Sobre mí
+    <User />Sobre mí
   </h2>
+  <article class="grid grid-cols-6 items-center gap-x-6">
+    <div class="col-span-4">
+      <p class="mb-4 text-lg dark:text-white text-black opacity-70">
+        Me llamo Manuel Del Castillo, aunque la mayoría del tiempo me llaman Manu.
+        Comenzé como diseñador gráfico queriendo especializarme en Experiencia de
+        Usuario.
+      </p>
+      <p class="mb-4 text-lg dark:text-white text-black opacity-70">
+        He formado parte de empresas de Marketing digital ofreciendo experiencias
+        visuales atractivas y solucionando problemas entre el diseño y la
+        programación.
+      </p>
+      <p class="text-lg dark:text-white text-black opacity-70">
+        Actualmente trabajo en un equipo de operaciones como Front End
+        Developer. Siempre mejorando entre UX y desarrollo web.
+      </p>
+    </div>
+    <div class="col-span-2 p-6">
+      <img class="rounded-lg -rotate-12 border-8 dark:border-gray-800 border-purple-100" src="/manuel-del-castillo.webp" alt="Manuel Del Castillo">
+    </div>
+  </article>
 </section>

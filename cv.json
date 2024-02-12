@@ -180,37 +180,43 @@
       "name": "Piscina y Spa ®",
       "summary": "Mejoras del ecommerce de Piscina y Spa ® aumentando las ventas",
       "description": "Optimización visual y técnica de este ecommerce de productos relacionados con piscinas, jardines y spas, mejorando el embudo de conversión de ventas. Implementación de mejoras en la experiencia de compra, desde la navegación intuitiva hasta la simplificación del proceso de compra, lo que resultó en un aumento significativo de las conversiones y la satisfacción del cliente.",
-      "url": "https://www.piscinayspa.com/"
+      "url": "https://www.piscinayspa.com/",
+      "img": "/piscinayspa.webp"
     },
     {
       "name": "Banus Boats",
       "summary": "Reserva sencilla de barcos de lujo y sus extras de manera intuitiva",
       "description": "Diseño y desarrollo del sitio web Banus Boats. Especializado en la venta y alquiler de embarcaciones de lujo, el enfoque se centró en potenciar la funcionalidad de reserva de barcos y sus extras. Implementación de un apartado específico para facilitar la reserva de embarcaciones, con una interfaz intuitiva que permite a los usuarios seleccionar y personalizar sus opciones con facilidad. Estas mejoras estratégicas aseguran una experiencia de reserva fluida y satisfactoria para los clientes, promoviendo así un aumento en las conversiones y una mayor satisfacción del usuario.",
-      "url": "https://www.banusboats.com/"
+      "url": "https://www.banusboats.com/",
+      "img": "/banusboats.webp"
     },
     {
       "name": "Hito Studio",
       "summary": "Web corporativa renovada para una experiencia de usuario inmersiva",
       "description": "Revitalización completa de la web corporativa de Hito Studio, una agencia creativa líder. El enfoque estuvo en la presentación de sus servicios y proyectos destacados. Implementación de una interfaz más atractiva y funcional, facilitando a los usuarios la navegación y la comprensión de la oferta de la empresa. Optimización de la sección contacto para fomentar una comunicación efectiva con los clientes potenciales. Estas mejoras estratégicas fortalecen la presencia online de Hito Studio, promoviendo una experiencia de usuario más atractiva y un aumento en la generación de clientes potenciales.",
-      "url": "https://hitostudio.com/"
+      "url": "https://hitostudio.com/",
+      "img": "/hito.webp"
     },
     {
       "name": "Home & Help",
       "summary": "Búsqueda de profesionales en servicios y cuidados domésticos",
       "description": "Reestructuración enfocada en potenciar la funcionalidad de búsqueda de profesionales en el sitio web de Home and Help. Se implementaron mejoras significativas en el motor de búsqueda, permitiendo a los usuarios encontrar rápidamente profesionales calificados para una amplia gama de servicios domésticos. Se optimizó la interfaz para una navegación intuitiva y una experiencia de usuario más eficiente. Estas mejoras estratégicas aseguran que los usuarios puedan acceder fácilmente a una red confiable de profesionales, lo que promueve un aumento en la satisfacción del cliente y la eficacia en la contratación de servicios.",
-      "url": "https://homeandhelp.es/"
+      "url": "https://homeandhelp.es/",
+      "img": "/homeandhelp.webp"
     },
     {
       "name": "Landing Mapfre",
       "summary": "Captación de leads con diseño persuasivo y actualizaciones contínuas",
       "description": "Desarrollo y mantenimiento de landing pages para Mapfre, con un enfoque específico en la captación de leads. Diseño y optimización páginas de destino para resaltar los diferentes productos y servicios de seguros, utilizando elementos visuales llamativos y contenido persuasivo para fomentar la conversión de visitantes en leads cualificados. Además, se realizaron actualizaciones regulares y ajustes para garantizar un rendimiento óptimo y una experiencia de usuario satisfactoria. Este proyecto demuestra la capacidad para crear landing pages efectivas que impulsan la captación de leads y el compromiso del público objetivo.",
-      "url": "https://segurosdecoche.mapfre.es/"
+      "url": "https://segurosdecoche.mapfre.es/",
+      "img": "/mapfre.webp"
     },
     {
       "name": "Entradas Madrid",
       "summary": "Compra segura de entradas deportivas con experiencia fluida",
       "description": "Creación web de Entradas Madrid, especializado en la reventa de entradas para partidos de fútbol en la ciudad. Se diseñaron páginas específicas para ofrecer una experiencia de usuario fluida y segura durante el proceso de compra de entradas. Se implementaron características como un sistema de búsqueda intuitivo, opciones de filtrado por equipos y fechas, y un proceso de compra simplificado para facilitar la adquisición de entradas. Además, se realizaron mejoras continuas para garantizar la actualización constante de la disponibilidad de entradas y la seguridad de la plataforma. Este proyecto demuestra la capacidad para desarrollar sitios web especializados que satisfacen las necesidades específicas de los aficionados al fútbol y promueven la participación en eventos deportivos en Madrid.",
-      "url": "https://www.entradasmadrid.com/"
+      "url": "https://www.entradasmadrid.com/",
+      "img": "/entradas.webp"
     }
     
   ]

@@ -1,30 +1,77 @@
 ---
-console.log(Astro.params);
-const active = globalThis.location?.href.includes('#') ? 'active' : ''
+import ThemeToggle from '../ThemeToggle.astro'
 ---
 
 <header
   class="fixed top-0 z-10 flex items-center justify-center w-full mx-auto mt-8"
 >
-  <nav class="flex px-3 rounded-full justify-center gap-3">
+  <nav class="flex px-8 py-3 gap-x-10 text-sm font-medium rounded-full text-gray-600 dark:text-gray-200 justify-center items-center">
     <a
-      class={`opacity-80 hover:no-underline hover:opacity-100 ${active}`}
+      class={`opacity-80 hover:no-underline hover:opacity-100`}
       href="#experiencia">Experiencia</a
     >
-    <a class={`opacity-80 hover:no-underline hover:opacity-100 ${active}`} href="#proyectos"
+    <a class={`opacity-80 hover:no-underline hover:opacity-100`} href="#proyectos"
       >Proyectos</a
     >
-    <a class={`opacity-80 hover:no-underline hover:opacity-100 ${active}`} href="#sobre-mi"
+    <a class={`opacity-80 hover:no-underline hover:opacity-100`} href="#sobre-mi"
       >Sobre mí</a
     >
-    <!-- <a class={`opacity-80 hover:no-underline hover:opacity-100 ${active}`} href="#contacto">Contacto</a> -->
+    <!-- <a class={`opacity-80 hover:no-underline hover:opacity-100`} href="#contacto">Contacto</a> -->
     <a
-      class={`opacity-80 hover:no-underline hover:opacity-100 ${active}`}
+      class={`opacity-80 hover:no-underline hover:opacity-100`}
       href="/cv"
       target="_blank">CV</a
     >
+    <ThemeToggle />
+    <a
+      class={`opacity-80 hover:no-underline hover:opacity-100`}
+      href="#"
+      target="_blank">EN</a
+    >
   </nav>
 </header>
+
+<script>
+  document.addEventListener("astro:page-load", () => {
+    const sections = document.querySelectorAll("section")
+    const navItems = document.querySelectorAll("header nav a")
+
+    const callback = (entries: any[]) => {
+      entries.forEach((entry) => {
+        if (entry.isIntersecting) {
+          navItems.forEach((item) => {
+            if (item.getAttribute("aria-label") == entry.target.id) {
+              item.classList.add("text-yellow-500")
+            } else {
+              item.classList.remove("text-yellow-500")
+            }
+          })
+        }
+      })
+    }
+
+    const observer = new IntersectionObserver(callback, {
+      root: null,
+      rootMargin: "0px",
+      threshold: 0.3,
+    })
+
+    sections.forEach((section) => {
+      observer.observe(section)
+    })
+
+    // Cleanup function
+    document.onvisibilitychange = () => {
+      if (document.visibilityState === "hidden") {
+        observer.disconnect()
+      } else {
+        sections.forEach((section) => {
+          observer.observe(section)
+        })
+      }
+    }
+  })
+</script>
 
 <style>
   nav {
@@ -35,7 +82,7 @@ const active = globalThis.location?.href.includes('#') ? 'active' : ''
 
   @keyframes nav-shadown {
     to {
-      @apply shadow-lg ring-1 backdrop-blur bg-purple-900/80 dark:bg-gray-800 ring-white/10;
+      @apply shadow-lg backdrop-blur bg-gray-800/60 dark:bg-gray-800/60 border-[#4824a8] text-white ;
     }
   }
 </style>
