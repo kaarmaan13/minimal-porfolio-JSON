@@ -23,11 +23,6 @@ import ThemeToggle from '../ThemeToggle.astro'
       target="_blank">CV</a
     >
     <ThemeToggle />
-    <a
-      class={`opacity-80 hover:no-underline hover:opacity-100`}
-      href="#"
-      target="_blank">EN</a
-    >
   </nav>
 </header>
 
@@ -72,17 +67,3 @@ import ThemeToggle from '../ThemeToggle.astro'
     }
   })
 </script>
-
-<style>
-  nav {
-    animation: nav-shadown 1s linear both;
-    animation-timeline: scroll();
-    animation-range: 0 100px;
-  }
-
-  @keyframes nav-shadown {
-    to {
-      @apply shadow-lg backdrop-blur bg-gray-800/60 dark:bg-gray-800/60 border-[#4824a8] text-white ;
-    }
-  }
-</style>

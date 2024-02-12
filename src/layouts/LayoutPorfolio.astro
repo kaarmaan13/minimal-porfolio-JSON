@@ -18,9 +18,9 @@ const { title } = Astro.props;
     <meta name="generator" content={Astro.generator} />
     <title>{title}</title>
   </head>
-  <body>
+  <body class="bg-white dark:bg-black">
     <div
-      class="hidden absolute inset-0 -z-10 h-full w-full items-center px-5 py-24 [background:radial-gradient(125%_125%_at_50%_10%,#000_40%,#63e_100%)]"
+      class="hidden dark:block absolute inset-0 -z-10 h-full w-full items-center px-5 py-24 [background:radial-gradient(125%_125%_at_50%_10%,#000_40%,#63e_100%)]"
     >
     </div>
     <slot />
@@ -170,6 +170,28 @@ const { title } = Astro.props;
         background-color: rgba(0, 0, 0, 0.3);
         border-radius: 9999px;
       }
+    }
+  }
+
+  nav {
+    animation: nav-shadown 1s linear both;
+    animation-timeline: scroll();
+    animation-range: 0 100px;
+  }
+  .dark nav {
+    animation: nav-shadown-dark 1s linear both;
+    animation-timeline: scroll();
+    animation-range: 0 100px;
+  }
+
+  @keyframes nav-shadown {
+    to {
+      @apply shadow-lg backdrop-blur bg-gray-100/70 text-black/70;
+    }
+  }
+  @keyframes nav-shadown-dark {
+    to {
+      @apply shadow-lg backdrop-blur bg-gray-800/70 text-white/70;
     }
   }
 </style>

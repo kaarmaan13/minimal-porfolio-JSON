@@ -10,7 +10,7 @@ const { name: actualWork, url: actualWorkURL} = work[0];
   <figure>
     <img src={image} class="rounded-full size-20 mx-auto" />
   </figure>
-  <Badge class="animate-bounce hover:animate-none hover:scale-105">Disponible para trabajar</Badge>
-  <h2 class="text-5xl font-bold text-center">Hola soy Manuel,</h2>
-  <h3 class="opacity-80">{label} en <a class="font-bold underline decoration-violet-500 decoration-2 hover:decoration-violet-700" href={actualWorkURL} target="_blank" rel="noopener noreferrer">{actualWork}</a></h3>
+  <Badge class="animate-bounce hover:animate-none hover:[zoom:1.05]">Disponible para trabajar</Badge>
+  <h2 class="text-5xl font-bold text-center text-gray-700 dark:text-gray-300">Hola soy Manuel,</h2>
+  <h3 class="opacity-80 text-gray-700 dark:text-gray-300">{label} en <a class="font-bold underline decoration-violet-500 decoration-2 hover:decoration-violet-700" href={actualWorkURL} target="_blank" rel="noopener noreferrer">{actualWork}</a></h3>
 </div>
