@@ -36,11 +36,11 @@ const SOCIAL_ICONS: Record<string, any> = {
         </a>
       </span>
       <footer class="print">
-        <article><span>{email}</span><span>{phone}</span></article>
+        <article><span>{email}</span><span><a target="_blank" href={`tel:+34${phone}`}>{phone}</a></span></article>
 
         {
           profiles.map(({ url }) => (
-            <span>{url.replace("www.", "").replace("https://", "")}</span>
+            <a class="border-0 m-0 bg-none" href={url} target="_blank">{url.replace("www.", "").replace("https://", "")}</a>
           ))
         }
       </footer>
@@ -158,8 +158,22 @@ const SOCIAL_ICONS: Record<string, any> = {
     }
   }
   @media print {
+    h1 {
+      font-size: 1.5rem;
+    }
     .info {
       gap: 0.5rem;
+    }
+    footer a {
+      color: #444;
+      display: block;
+      border: none;
+      padding: 0;
+      height: auto;
+      width: auto;
+      border-radius: 0;
+      transition: none;
+      font-size: 0.8rem;
     }
     footer.print {
       display: flex;

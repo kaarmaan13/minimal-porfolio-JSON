@@ -21,7 +21,7 @@ import { projects } from "@cv";
               <p>{summary}</p>
             </header>
             <span class="print">
-              {url.replace("www.", "").replace("https://", "").replace("/", "")}
+              <a href={url} target="_blank" rel="noopener noreferrer">{url.replace("www.", "").replace("https://", "").replace("/", "")}</a>
             </span>
           </article>
         </li>
