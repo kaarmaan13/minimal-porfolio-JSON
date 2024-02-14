@@ -6,11 +6,11 @@
       "@cv": [
         "./cv.json"
       ],
-      "@/icons": [
-        "./src/icons"
+      "@/icons/*": [
+        "./src/icons/*"
       ],
-      "@/components": [
-        "./src/components"
+      "@/components/*": [
+        "./src/components/*"
       ],
       "@/*": [
         "src/*"
