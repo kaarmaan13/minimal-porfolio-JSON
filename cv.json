@@ -3,6 +3,7 @@
     "name": "Manuel Del Castillo Garzón",
     "label": "Front End Developer",
     "image": "/manuel-del-castillo.webp",
+    "imagecv": "/me-corp2.webp",
     "email": "manueldelcastillo13@gmail.com",
     "phone": "697523227",
     "url": "https://manueldelcastillo.dev",
@@ -43,7 +44,7 @@
       "startDate": "30-09-2020",
       "endDate": "12-09-2022",
       "highlights": [],
-      "summary": "Diseño, prototipado y desarrollo de páginas webs. Utilización de tecnologías web como JQuery, PHP, Wordpress. Prototipado y diseño con Adobe XD, Adobe Illustrator y Adobe Photoshop",
+      "summary": "Diseño, prototipado y desarrollo de páginas webs. Utilización de tecnologías web como JQuery, PHP, Wordpress. Prototipado y diseño con Adobe XD, Adobe Illustrator y Adobe Photoshop.",
       "url": "https://programadorautonomo.com",
       "location": "Madrid, Comunidad de Madrid, España"
     },

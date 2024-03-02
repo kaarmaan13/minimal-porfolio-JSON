@@ -9,7 +9,7 @@ import LinkedIn from "@/icons/LinkedIn.astro";
 import Github from "@/icons/Github.astro";
 
 const { name: actualWork, url: actualWorkUrl } = work[0];
-const { name, label, image, location, profiles, phone, email } = basics;
+const { name, label, imagecv, location, profiles, phone, email } = basics;
 const { address, city, mapsUrl } = location;
 
 const SOCIAL_ICONS: Record<string, any> = {
@@ -88,7 +88,7 @@ const SOCIAL_ICONS: Record<string, any> = {
       </footer>
     </div>
     <figure>
-      <img src={image} alt={name} />
+      <img src={imagecv} alt={name} />
     </figure>
   </div>
 </Section>
