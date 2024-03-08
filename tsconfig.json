@@ -6,6 +6,9 @@
       "@cv": [
         "./cv.json"
       ],
+      "@cven": [
+        "./cven.json"
+      ],
       "@/*": [
         "src/*"
       ]

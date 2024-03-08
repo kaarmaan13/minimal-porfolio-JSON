@@ -1,0 +1,77 @@
+---
+import Section from "@/components/Section.astro";
+import { projects } from "@cven";
+---
+
+<Section title="Proyects">
+  <ul>
+    {
+      projects.map(({ name, summary, url }) => (
+        <li>
+          <article>
+            <header>
+              <a
+                href={url}
+                title={`Ver el projecto ${name}`}
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <h3>{name}</h3>
+              </a>
+              <p>{summary}</p>
+            </header>
+            <span class="print">
+              <a href={url} target="_blank" rel="noopener noreferrer">{url.replace("www.", "").replace("https://", "").replace("/", "")}</a>
+            </span>
+          </article>
+        </li>
+      ))
+    }
+  </ul>
+</Section>
+
+<style>
+  ul {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 1rem;
+  }
+  article {
+    padding: 16px;
+    border: 1px solid #cecece;
+    border-radius: 8px;
+    min-height: 155px;
+    position: relative;
+  }
+  span {
+    font-size: 10px;
+    color: #444;
+    position: absolute;
+    bottom: 10px;
+  }
+  article header {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 0.5rem;
+  }
+  h3 {
+    color: #444;
+    font-weight: 500;
+  }
+  @media (max-width: 768px) {
+    article {
+      min-height: 132px;
+    }
+  }
+  @media (max-width: 576px) {
+    article {
+      min-height: auto;
+    }
+  }
+  @media print {
+    article {
+      height: 207px;
+    }
+  }
+</style>

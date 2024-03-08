@@ -1,0 +1,41 @@
+---
+import Layout from "@/layouts/Layout.astro";
+
+import About from "@/components/sectionsen/About.astro";
+import Education from "@/components/sectionsen/Education.astro";
+import Experience from "@/components/sectionsen/Experience.astro";
+import Hero from "@/components/sectionsen/Hero.astro";
+import Projects from "@/components/sectionsen/Projects.astro";
+import Skills from "@/components/sectionsen/Skills.astro";
+import KeyboardManagerEn from "@/components/KeyboardManagerEN.astro";
+---
+
+<Layout title="Manuel Del Castillo Garzón - Front End Developer">
+	<main>
+		<Hero />
+		<About />
+		<Experience />
+		<Education />
+		<Projects />
+		<Skills />
+	</main>
+	<KeyboardManagerEn />
+</Layout>
+
+<style>
+	main {
+		padding: 4rem;
+		margin: auto;
+		width: 100%;
+	}
+	@media (max-width: 576px) {
+		main {
+			padding: 2rem;
+		}
+	}
+	@media print {
+    main {
+			padding: 2rem;
+		}
+  }
+</style>

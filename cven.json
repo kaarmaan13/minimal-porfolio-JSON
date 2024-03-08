@@ -1,0 +1,224 @@
+{
+  "basics": {
+    "name": "Manuel Del Castillo Garzón",
+    "label": "Front End Developer",
+    "image": "/manuel-del-castillo.webp",
+    "imagecv": "/me-corp2.webp",
+    "email": "manueldelcastillo13@gmail.com",
+    "phone": "697523227",
+    "url": "https://manueldelcastillo.dev",
+    "summary": "I began my career as a graphic designer with a desire to specialize in User Experience. I've worked with digital marketing companies, crafting engaging visual experiences and bridging the gap between design and programming. Currently, I'm part of an operations team, serving as a Front End Developer, constantly refining my skills in both UX and web development.",
+    "location": {
+      "city": "Madrid",
+      "countryCode": "ES",
+      "address": "Spain",
+      "mapsUrl": "https://maps.app.goo.gl/uKbeYFEE8qY7h7kT6"
+    },
+    "profiles": [
+      {
+        "network": "LinkedIn",
+        "username": "manuel-del-castillo-garzon",
+        "url": "https://www.linkedin.com/in/manuel-del-castillo-garzon"
+      },
+      {
+        "network": "Github",
+        "username": "kaarmaan13",
+        "url": "https://github.com/kaarmaan13"
+      }
+    ]
+  },
+  "work": [
+    {
+      "name": "Globant",
+      "position": "Front End Developer",
+      "startDate": "12-09-2022",
+      "endDate": null,
+      "highlights": [],
+      "summary": "Develop innovative digital interfaces and experiences using JavaScript. I create services and gateways with PHP, as well as third-party scripts to capture leads on client websites such as Mapfre, Vodafone, Finetwork, Adeslas, Generali, among others.",
+      "url": "https://www.linkedin.com/company/globant/",
+      "location": "Madrid, Comunidad de Madrid, España"
+    },
+    {
+      "name": "programadorautonomo.com",
+      "position": "UX Designer / Web developer",
+      "startDate": "30-09-2020",
+      "endDate": "12-09-2022",
+      "highlights": [],
+      "summary": " Design, prototype, and develop websites, utilizing web technologies such as jQuery, PHP, and WordPress. I prototype and design using Adobe XD, Adobe Illustrator, and Adobe Photoshop.",
+      "url": "https://programadorautonomo.com",
+      "location": "Madrid, Comunidad de Madrid, España"
+    },
+    {
+      "name": "Hito Studio",
+      "position": "Graphic Designer y UX (User Experience)",
+      "startDate": "30-03-2019",
+      "endDate": "30-06-2020",
+      "highlights": [],
+      "summary": "Creative designs and templates for web pages using Photoshop and Adobe XD. Additionally, I prepare files and graphic resources for online advertising campaigns, banners, final artwork for printing, and develop common graphic styles for web/app creation.",
+      "url": "https://www.linkedin.com/company/hito-studio/",
+      "location": "Las Rozas de Madrid y alrededores, España"
+    }
+  ],
+  "volunteer": [],
+  "education": [
+    {
+      "institution": "Salesianos Atocha",
+      "area": "Graphic Design",
+      "studyType": "Advanced Degree in Graphic Design",
+      "startDate": "31-12-2017",
+      "endDate": "31-12-2019",
+      "score": "",
+      "courses": []
+    },
+    {
+      "institution": "ESDIP Professional Drawing School",
+      "area": "Illustration",
+      "studyType": "Digital Illustration",
+      "startDate": "31-12-2015",
+      "endDate": "31-12-2016",
+      "score": "",
+      "courses": []
+    }
+  ],
+  "awards": [],
+  "certificates": [
+    {
+      "name": "Digital Illustration",
+      "issuer": "ESDIP Professional Drawing School."
+    },
+    {
+      "name": "Designer of Editorial and Multimedia Products",
+      "issuer": "Salesianos Atocha",
+      "startDate": "30-06-2019"
+    }
+  ],
+  "publications": [
+    {
+      "name": "100 EJEMPLOS DE RESILIENCIA, UN EBOOK PARA LUCHAR CONTRA EL HAMBRE",
+      "publisher": "Acción Contra el Hambre www.accioncontraelhambre.org",
+      "releaseDate": "10-12-2015",
+      "summary": "Es un ebook que recopila una serie de ilustraciones de diferentes artistas sobre ejemplos de superación de etapas o situaciones duras de la vida.",
+      "url": "https://www.accioncontraelhambre.org/sites/default/files/documents/100resiliencias.pdf"
+    }
+  ],
+  "skills": [
+    {
+      "name": "Front End Develop",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "JavaScript",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "React",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Node JS",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Astro",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Tailwind",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Webpack",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Vite",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Figma",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Graphic Design",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Adobe Photoshop",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Adobe Illustrator",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Adobe XD",
+      "level": "",
+      "keywords": []
+    }
+  ],
+  "languages": [
+    {
+      "language": "es",
+      "fluency": "Native Speaker"
+    }
+  ],
+  "interests": [],
+  "references": [],
+  "projects": [
+    {
+      "name": "Piscina y Spa ®",
+      "summary": "Improvements to the Pool and Spa ® e-commerce platform leading to increased sales",
+      "description": "Visual and technical optimization of this e-commerce platform for products related to pools, gardens, and spas, enhancing the sales conversion funnel. Implementation of improvements in the shopping experience, from intuitive navigation to streamlining the purchasing process, resulting in a significant increase in conversions and customer satisfaction.",
+      "url": "https://www.piscinayspa.com/",
+      "img": "/piscinayspa.webp"
+    },
+    {
+      "name": "Banus Boats",
+      "summary": "Seamless booking of luxury yachts and their extras in an intuitive manner",
+      "description": "Design and development of the Banus Boats website. Specialized in the sale and rental of luxury yachts, the focus was on enhancing the boat reservation functionality and its extras. Implementation of a specific section to facilitate yacht booking, with an intuitive interface that allows users to select and customize their options easily. These strategic improvements ensure a seamless and satisfying booking experience for customers, thereby promoting an increase in conversions and higher user satisfaction.",
+      "url": "https://www.banusboats.com/",
+      "img": "/banusboats.webp"
+    },
+    {
+      "name": "Hito Studio",
+      "summary": "Revamped corporate website for an immersive user experience.",
+      "description": "Complete revitalization of Hito Studio's corporate website, a leading creative agency. The focus was on showcasing its services and standout projects. Implementation of a more engaging and functional interface, making navigation and understanding of the company's offerings easier for users. Optimization of the contact section to encourage effective communication with potential clients. These strategic improvements strengthen Hito Studio's online presence, promoting a more appealing user experience and an increase in lead generation.",
+      "url": "https://hitostudio.com/",
+      "img": "/hito.webp"
+    },
+    {
+      "name": "Home & Help",
+      "summary": "Search for professionals in home services and care",
+      "description": "Restructuring focused on enhancing the search functionality for professionals on the Home and Help website. Significant improvements were implemented in the search engine, allowing users to quickly find qualified professionals for a wide range of domestic services. The interface was optimized for intuitive navigation and a more efficient user experience. These strategic improvements ensure that users can easily access a reliable network of professionals, promoting increased customer satisfaction and effectiveness in hiring services.",
+      "url": "https://homeandhelp.es/",
+      "img": "/homeandhelp.webp"
+    },
+    {
+      "name": "Landing Mapfre",
+      "summary": "Lead generation through persuasive design and continuous updates",
+      "description": "Development and maintenance of landing pages for Mapfre, with a specific focus on lead generation. Design and optimization of landing pages to highlight various insurance products and services, utilizing eye-catching visuals and persuasive content to encourage visitor conversion into qualified leads. Additionally, regular updates and adjustments were made to ensure optimal performance and a satisfactory user experience. This project showcases the ability to create effective landing pages that drive lead generation and engage the target audience.",
+      "url": "https://segurosdecoche.mapfre.es/",
+      "img": "/mapfre.webp"
+    },
+    {
+      "name": "Entradas Madrid",
+      "summary": "Secure purchase of sports tickets with a seamless experience",
+      "description": "Web creation for Entradas Madrid, specialized in the resale of football match tickets in the city. Specific pages were designed to offer a seamless and secure user experience during the ticket purchasing process. Features such as an intuitive search system, filtering options by teams and dates, and a simplified purchasing process were implemented to facilitate ticket acquisition. Additionally, continuous improvements were made to ensure the constant update of ticket availability and platform security. This project demonstrates the ability to develop specialized websites that meet the specific needs of football fans and promote participation in sports events in Madrid.",
+      "url": "https://www.entradasmadrid.com/",
+      "img": "/entradas.webp"
+    }
+    
+  ]
+}

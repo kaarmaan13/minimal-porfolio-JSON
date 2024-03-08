@@ -31,15 +31,14 @@ const SOCIAL_ICONS: SocialIcon = {
 };
 
 const profilesInfo = profiles.map(({ network, url }) => {
+
   const icon = SOCIAL_ICONS[network];
   const firstLetter = network[0].toUpperCase();
-
-  console.log({ icon });
 
   return {
     id: network,
     section: "Social",
-    title: `Visitar ${network}`,
+    title: `Visit ${network}`,
     url,
     icon,
     hotkey: `ctrl+${firstLetter}`,
@@ -48,15 +47,15 @@ const profilesInfo = profiles.map(({ network, url }) => {
 ---
 
 <footer class="no-print">
-  Pulsa <kbd>Ctrl</kbd> + <kbd>K</kbd> para abrir la paleta de comandos.
+  Press <kbd>Ctrl</kbd> + <kbd>K</kbd> to open the command palette.
 </footer>
 <footer class="mobile no-print">
-  <a onclick="window.print()"><File /> <span>Descargar CV</span></a>
+  <a onclick="window.print()"><File /> <span>Download CV</span></a>
 </footer>
 
 <ninja-keys
   data-info={JSON.stringify(profilesInfo)}
-  placeholder="Buscar comando..."
+  placeholder="Search command..."
   hideBreadcrumbs></ninja-keys>
 
 <script>
@@ -97,22 +96,22 @@ const profilesInfo = profiles.map(({ network, url }) => {
     ninja.data = [
       {
         id: "print",
-        title: "Imprimir",
+        title: "Print",
         hotkey: "ctrl+P",
         icon: imprimir,
-        section: "Acciones",
+        section: "Actions",
         handler: () => {
           window.print();
         },
       },
       {
-        id: "english",
-        title: "Versión en Inglés",
-        hotkey: "ctrl+shift+E",
+        id: "spanish",
+        title: "Spanish version",
+        hotkey: "ctrl+shift+S",
         icon: ArrowRight,
-        section: "Acciones",
+        section: "Actions",
         handler: () => {
-          window.location.href = '/cv/en';
+          window.location.href = '/cv';
         },
       },
       ...data,
