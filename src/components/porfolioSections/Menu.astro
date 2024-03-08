@@ -1,9 +1,6 @@
 ---
 import ThemeToggle from "@/components/ThemeToggle.astro";
 import { Hamburger } from "@/components/Hamburger";
-
-const params = Astro.params
-console.log({ params });
 ---
 
 <header
@@ -13,14 +10,17 @@ console.log({ params });
     class="hidden sm:flex px-8 py-3 gap-x-10 text-sm font-medium rounded-full text-gray-600 dark:text-gray-200 justify-center items-center"
   >
     <a
+      aria-label="experiencia"
       class={`opacity-80 hover:no-underline hover:opacity-100`}
       href="#experiencia">Experiencia</a
     >
     <a
+      aria-label="proyectos"
       class={`opacity-80 hover:no-underline hover:opacity-100`}
       href="#proyectos">Proyectos</a
     >
     <a
+      aria-label="sobre-mi"
       class={`opacity-80 hover:no-underline hover:opacity-100`}
       href="#sobre-mi">Sobre mí</a
     >
@@ -44,9 +44,9 @@ console.log({ params });
         if (entry.isIntersecting) {
           navItems.forEach((item) => {
             if (item.getAttribute("aria-label") == entry.target.id) {
-              item.classList.add("text-yellow-500");
+              item.classList.add("text-violet-500");
             } else {
-              item.classList.remove("text-yellow-500");
+              item.classList.remove("text-violet-500");
             }
           });
         }
@@ -75,4 +75,3 @@ console.log({ params });
     };
   });
 </script>
-
