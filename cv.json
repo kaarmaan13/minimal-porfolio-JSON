@@ -219,6 +219,25 @@
       "url": "https://www.entradasmadrid.com/",
       "img": "/entradas.webp"
     }
-    
+  ],
+  "personal_proyects": [
+    {
+      "name": "Spotify Clon",
+      "summary": "Clon de Spotify para fines educativos sin animo de lucro",
+      "description": "Clon de Spotify para practicar estados globales y reactividad. Desarrollado con Typescript, Astro, Tailwind, React y Zustand.",
+      "url": "https://spotify-clon-psi.vercel.app/",
+      "github": "https://github.com/kaarmaan13/spotify-clon",
+      "tecnologies": ["Typescript", "Astro", "Tailwind", "React", "Zustand"],
+      "img": "/spotifyclon.webp"
+    },
+    {
+      "name": "Web personal",
+      "summary": "Porfolio web personal para toda mi información y contacto",
+      "description": "Porfolio web personal para toda mi información y contacto. Desarrollado con Typescript, Astro, Tailwind y React",
+      "url": "https://manueldelcastillo.es",
+      "github": "https://github.com/kaarmaan13/minimal-porfolio-JSON",
+      "tecnologies": ["Typescript", "Astro", "Tailwind", "React"],
+      "img": "/web.webp"
+    }
   ]
 }

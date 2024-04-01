@@ -1,26 +1,81 @@
 ---
 import ArrowRight from "@/icons/ArrowRight.astro";
 import Code from "@/icons/Code.astro";
-import { projects } from "@cv";
+import { projects, personal_proyects as personalProyects } from "@cv";
 ---
 
 <section class="max-w-3xl mx-auto pt-24" id="proyectos">
-  <h2 class="pb-12 flex items-center text-3xl font-semibold gap-x-3 text-gray-900 dark:text-gray-100">
+  <h2
+    class="pb-12 flex items-center text-3xl font-semibold gap-x-3 text-gray-900 dark:text-gray-100"
+  >
     <Code />Proyectos
   </h2>
+  <h3 class="text-xl font-light text-gray-900 dark:text-gray-100 pb-6">
+    PROYECTOS REALES PARA EMPRESAS
+  </h3>
   <ul class="grid xl:grid-cols-3 md:grid-cols-2 sm-grid-cols-2 gap-6">
     {
       projects.map(({ img, name, summary, url }) => (
         <article>
           <header>
-            <h3 class="text-lg font-semibold text-gray-900 dark:text-gray-100">{name}</h3>
+            <h3 class="text-lg font-semibold text-gray-900 dark:text-gray-100">
+              {name}
+            </h3>
             <p class="text-gray-700 dark:text-gray-300">{summary}</p>
           </header>
           <img class="my-3" src={img} alt={name} />
-          
+
           <footer>
-            <a class="inline-flex items-center px-4 py-2 text-sm font-medium text-gray-900 bg-white border border-gray-200 rounded-lg hover:bg-gray-100 hover:text-violet-700 focus:z-10 focus:ring-4 focus:outline-none focus:ring-gray-200 focus:text-violet-700 dark:bg-gray-800 dark:text-gray-400 dark:border-[#4824a8] dark:hover:text-white dark:hover:bg-gray-700 dark:focus:ring-gray-700 hover:no-underline hover:scale-105" href={url} target="_blank" rel="noopener noreferrer">
+            <a
+              class="inline-flex items-center px-4 py-2 text-sm font-medium text-gray-900 bg-white border border-gray-200 rounded-lg hover:bg-gray-100 hover:text-violet-700 focus:z-10 focus:ring-4 focus:outline-none focus:ring-gray-200 focus:text-violet-700 dark:bg-gray-800 dark:text-gray-400 dark:border-[#4824a8] dark:hover:text-white dark:hover:bg-gray-700 dark:focus:ring-gray-700 hover:no-underline hover:scale-105"
+              href={url}
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               Visitar <ArrowRight />
+            </a>
+          </footer>
+        </article>
+      ))
+    }
+  </ul>
+  <h3 class="text-xl font-light text-gray-900 dark:text-gray-100 py-6 mt-5">
+    PROYECTOS PERSONALES
+  </h3>
+  <ul class="grid xl:grid-cols-3 md:grid-cols-2 sm-grid-cols-2 gap-6">
+    {
+      personalProyects.map(({ img, name, summary, url, github, tecnologies }) => (
+        <article>
+          <header>
+            <h3 class="text-lg font-semibold text-gray-900 dark:text-gray-100">
+              {name}
+            </h3>
+            <p class="text-gray-700 dark:text-gray-300">{summary}</p>
+          </header>
+          <img class="my-3" src={img} alt={name} />
+          <div class="flex flex-wrap gap-3 mb-3">
+          {
+            tecnologies.map(tech => (
+              <span class="text-sm dark:bg-[#4824a8] bg-gray-200 text-gray-700 dark:text-gray-300 rounded-md px-1">{tech}</span>
+            ))
+          }
+        </div>
+          <footer class="flex gap-x-3">
+            <a
+              class="inline-flex items-center px-4 py-2 text-sm font-medium text-gray-900 bg-white border border-gray-200 rounded-lg hover:bg-gray-100 hover:text-violet-700 focus:z-10 focus:ring-4 focus:outline-none focus:ring-gray-200 focus:text-violet-700 dark:bg-gray-800 dark:text-gray-400 dark:border-[#4824a8] dark:hover:text-white dark:hover:bg-gray-700 dark:focus:ring-gray-700 hover:no-underline hover:scale-105"
+              href={url}
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Visitar <ArrowRight />
+            </a>
+            <a
+              class="inline-flex items-center px-4 py-2 text-sm font-medium text-gray-900 bg-white border border-gray-200 rounded-lg hover:bg-gray-100 hover:text-violet-700 focus:z-10 focus:ring-4 focus:outline-none focus:ring-gray-200 focus:text-violet-700 dark:bg-gray-800 dark:text-gray-400 dark:border-[#4824a8] dark:hover:text-white dark:hover:bg-gray-700 dark:focus:ring-gray-700 hover:no-underline hover:scale-105"
+              href={github}
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Ver código <ArrowRight />
             </a>
           </footer>
         </article>
