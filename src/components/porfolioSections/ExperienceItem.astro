@@ -1,6 +1,6 @@
 ---
-import ArrowRight from '@/icons/ArrowRight.astro'
-const { title, time, latest, description, button, fin, href, summary } =
+import ArrowRight from "@/icons/ArrowRight.astro";
+const { title, time, latest, description, button, fin, href, summary, icons } =
   Astro.props;
 ---
 
@@ -45,9 +45,18 @@ const { title, time, latest, description, button, fin, href, summary } =
       {time}
       {fin && `- ${fin}`}
     </time>
-    <p class="mb-4 text-base font-normal text-gray-500 dark:text-gray-400">
+    <p class="mb-2 text-base font-normal text-gray-500 dark:text-gray-400">
       {description}
     </p>
+    <div class="mb-3">
+      {
+        icons.map((tech: any) => (
+          <span class="text-xs p-1 text-gray-500 bg-gray-100 dark:text-gray-400 mr-0.5 dark:bg-gray-800 rounded-md mb-3">
+            {tech}
+          </span>
+        ))
+      }
+    </div>
   </div>
   <div class="col-span-4">
     <p class="mb-4 text-base font-normal text-gray-500 dark:text-gray-400">
@@ -57,10 +66,12 @@ const { title, time, latest, description, button, fin, href, summary } =
       button && (
         <a
           href={button}
-          rel="noreferrer noopener" target="_blank"
+          rel="noreferrer noopener"
+          target="_blank"
           class="inline-flex items-center px-4 py-2 text-sm font-medium text-gray-900 bg-white border border-gray-200 rounded-lg hover:bg-gray-100 hover:text-violet-700 focus:z-10 focus:ring-4 focus:outline-none focus:ring-gray-200 focus:text-violet-700 dark:bg-gray-800 dark:text-gray-400 dark:border-[#4824a8] dark:hover:text-white dark:hover:bg-gray-700 dark:focus:ring-gray-700 hover:no-underline hover:scale-105"
         >
-          Saber más<ArrowRight className="ml-2" />
+          Saber más
+          <ArrowRight className="ml-2" />
         </a>
       )
     }

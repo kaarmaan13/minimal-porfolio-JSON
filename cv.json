@@ -33,7 +33,12 @@
       "position": "Front End Developer",
       "startDate": "12-09-2022",
       "endDate": "12-04-2024",
-      "highlights": [],
+      "technologies": [
+        "JavaScript",
+        "React",
+        "Node",
+        "PHP"
+      ],
       "summary": "Desarrollo de interfaces y experiencias digitales innovadoras con Javascript. Creación de servicios y pasarelas con PHP. Creación de scripts de terceros para captación de leads en páginas webs de clientes como Mapfre, Vodafone, Finetwork, Adeslas o Generali entre otras.",
       "url": "https://www.linkedin.com/company/globant/",
       "location": "Madrid, Comunidad de Madrid, España"
@@ -43,7 +48,12 @@
       "position": "Diseñador UX / Desarrollador web",
       "startDate": "30-09-2020",
       "endDate": "12-09-2022",
-      "highlights": [],
+      "technologies": [
+        "JavaScript",
+        "React",
+        "Node",
+        "PHP"
+      ],
       "summary": "Diseño, prototipado y desarrollo de páginas webs. Utilización de tecnologías web como JQuery, PHP, Wordpress. Prototipado y diseño con Adobe XD, Adobe Illustrator y Adobe Photoshop.",
       "url": "https://programadorautonomo.com",
       "location": "Madrid, Comunidad de Madrid, España"
@@ -53,7 +63,10 @@
       "position": "Diseñador Gráfico y UX (Experiencia de Usuario)",
       "startDate": "30-03-2019",
       "endDate": "30-06-2020",
-      "highlights": [],
+      "technologies": [
+        "JavaScript",
+        "PHP"
+      ],
       "summary": "Creación de diseños y plantillas para páginas web con Photoshop y Adobe XD, además preparación de archivos y recursos gráficos para campañas de publicidad online, banners, creación de artes finales para impresión y confección de estilos gráficos comunes para creación de Webs/Apps.",
       "url": "https://www.linkedin.com/company/hito-studio/",
       "location": "Las Rozas de Madrid y alrededores, España"
