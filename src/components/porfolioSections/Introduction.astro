@@ -1,6 +1,15 @@
 ---
 import { work, basics } from "@cv";
 import Badge from "@/components/Badge.astro";
+import LinkedIn from "@/icons/LinkedIn.astro";
+import Github from "@/icons/Github.astro";
+
+const SOCIAL_ICONS: Record<string, any> = {
+  LinkedIn,
+  Github,
+};
+
+const { profiles } = basics;
 
 const { image, label } = basics;
 const { name: actualWork, url: actualWorkURL } = work[0];
@@ -29,4 +38,22 @@ const { name: actualWork, url: actualWorkURL } = work[0];
   <h3 class="opacity-80 text-gray-700 dark:text-gray-300">
     {label}
   </h3>
+  <div class="flex justify-center gap-2 mx-auto">
+    {
+      profiles.map(({ network, url }) => {
+        const Icon = SOCIAL_ICONS[network];
+
+        return (
+          <a
+            href={url}
+            title={`${network}`}
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <Icon />
+          </a>
+        );
+      })
+    }
+  </div>
 </div>

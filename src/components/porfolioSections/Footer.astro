@@ -1,7 +1,19 @@
 ---
+import LinkedIn from "@/icons/LinkedIn.astro";
+import Github from "@/icons/Github.astro";
+import { basics } from "@cv";
+
+const { profiles } = basics;
+
+const SOCIAL_ICONS: Record<string, any> = {
+  LinkedIn,
+  Github,
+};
 ---
 
-<footer class="rounded-lg shadow m-0 mb-4 sm:m-4 dark:bg-gray-800 md:rounded-full">
+<footer
+  class="rounded-lg shadow m-0 mb-4 sm:m-4 dark:bg-gray-800 md:rounded-full"
+>
   <div
     class="w-full mx-auto max-w-screen-xl py-2 px-0 sm:py-4 sm:px-6 md:flex md:items-center md:justify-between text-center"
   >
@@ -10,20 +22,55 @@
         >Manuel Del Castillo</a
       >. Casi todo reservado.
     </span>
+    <div class="flex justify-center gap-2 mx-auto mt-2 sm:mt-0">
+      {
+        profiles.map(({ network, url }) => {
+          const Icon = SOCIAL_ICONS[network];
+
+          return (
+            <a
+              href={url}
+              title={`${network}`}
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <Icon />
+            </a>
+          );
+        })
+      }
+    </div>
     <ul
-      class="flex flex-wrap items-center  justify-center mt-3 text-sm font-medium dark:text-white/70 text-black/70 sm:mt-0"
+      class="flex flex-wrap items-center justify-center mt-3 text-sm font-medium dark:text-white/70 text-black/70 sm:mt-0"
     >
       <li>
-        <a href="#experiencia" class="hover:no-underline hover:text-black dark:hover:text-white me-4 md:me-6">Experiencia</a>
+        <a
+          href="#experiencia"
+          class="hover:no-underline hover:text-black dark:hover:text-white me-4 md:me-6"
+          >Experiencia</a
+        >
       </li>
       <li>
-        <a href="#proyectos" class="hover:no-underline hover:text-black dark:hover:text-white me-4 md:me-6">Proyectos</a>
+        <a
+          href="#proyectos"
+          class="hover:no-underline hover:text-black dark:hover:text-white me-4 md:me-6"
+          >Proyectos</a
+        >
       </li>
       <li>
-        <a href="#sobre-mi" class="hover:no-underline hover:text-black dark:hover:text-white me-4 md:me-6">Sobre mí</a>
+        <a
+          href="#sobre-mi"
+          class="hover:no-underline hover:text-black dark:hover:text-white me-4 md:me-6"
+          >Sobre mí</a
+        >
       </li>
       <li>
-        <a href="/cv" target="_blank" class="hover:no-underline hover:text-black dark:hover:text-white">CV</a>
+        <a
+          href="/cv"
+          target="_blank"
+          class="hover:no-underline hover:text-black dark:hover:text-white"
+          >CV</a
+        >
       </li>
     </ul>
   </div>
